@@ -11,7 +11,7 @@ const loggedInRole = () => {
 const getUserInfo = () => {
   return JSON.parse(localStorage.getItem('userInfo')) || null;
 };
-
+//hiis
 const logout = () => {
   localStorage.removeItem('accessToken');
   localStorage.removeItem('role');
